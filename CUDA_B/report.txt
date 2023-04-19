@@ -1,0 +1,141 @@
+running all commands for CUDA_B
+running vecadd_cpu 1000192
+Total vector size: 1000192
+Time: 0.000626 (sec), GFlopsS: 1.597528, GBytesS: 19.170340
+Test PASSED 
+running vecadd_cpu 5000192
+Total vector size: 5000192
+Time: 0.003811 (sec), GFlopsS: 1.312082, GBytesS: 15.744989
+Test PASSED 
+running vecadd_cpu 10000128
+Total vector size: 10000128
+Time: 0.009095 (sec), GFlopsS: 1.099525, GBytesS: 13.194299
+Test PASSED 
+running vecadd_cpu 50000128
+Total vector size: 50000128
+Time: 0.048407 (sec), GFlopsS: 1.032909, GBytesS: 12.394913
+Test PASSED 
+running vecadd_cpu 100000000
+Total vector size: 100000000
+Time: 0.097392 (sec), GFlopsS: 1.026778, GBytesS: 12.321330
+Test PASSED 
+running vecadd 1000192 1
+Total vector size: 1000192
+Time: 0.121830 (sec), GFlopsS: 0.008210, GBytesS: 0.098517
+Test PASSED 
+running vecadd 1000192 2
+Total vector size: 1000192
+Time: 0.004175 (sec), GFlopsS: 0.239556, GBytesS: 2.874675
+Test PASSED 
+running vecadd 1000192 3
+Total vector size: 1000192
+Time: 0.000117 (sec), GFlopsS: 8.544011, GBytesS: 102.528130
+Test PASSED 
+running vecadd 5000192 1
+Total vector size: 5000192
+Time: 0.601440 (sec), GFlopsS: 0.008314, GBytesS: 0.099764
+Test PASSED 
+running vecadd 5000192 2
+Total vector size: 5000192
+Time: 0.020701 (sec), GFlopsS: 0.241544, GBytesS: 2.898532
+Test PASSED 
+running vecadd 5000192 3
+Total vector size: 5000192
+Time: 0.000523 (sec), GFlopsS: 9.563304, GBytesS: 114.759646
+Test PASSED 
+running vecadd 10000128 1
+Total vector size: 10000128
+Time: 1.203513 (sec), GFlopsS: 0.008309, GBytesS: 0.099709
+Test PASSED 
+running vecadd 10000128 2
+Total vector size: 10000128
+Time: 0.041379 (sec), GFlopsS: 0.241672, GBytesS: 2.900061
+Test PASSED 
+running vecadd 10000128 3
+Total vector size: 10000128
+Time: 0.001032 (sec), GFlopsS: 9.688976, GBytesS: 116.267711
+Test PASSED 
+running vecadd 50000128 1
+Total vector size: 50000128
+Time: 6.017220 (sec), GFlopsS: 0.008310, GBytesS: 0.099714
+Test PASSED 
+running vecadd 50000128 2
+Total vector size: 50000128
+Time: 0.084818 (sec), GFlopsS: 0.589500, GBytesS: 7.073998
+Test PASSED 
+running vecadd 50000128 3
+Total vector size: 50000128
+Time: 0.005638 (sec), GFlopsS: 8.868223, GBytesS: 106.418676
+Test PASSED 
+running vecadd 100000000 1
+Total vector size: 100000000
+Time: 12.033823 (sec), GFlopsS: 0.008310, GBytesS: 0.099719
+Test PASSED 
+running vecadd 100000000 2
+Total vector size: 100000000
+Time: 0.160491 (sec), GFlopsS: 0.623088, GBytesS: 7.477055
+Test PASSED 
+running vecadd 100000000 3
+Total vector size: 100000000
+Time: 0.002215 (sec), GFlopsS: 45.148590, GBytesS: 541.783079
+Test PASSED 
+running vecadd_unified 1000192 1
+Total vector size: 1000192
+Time: 0.121940 (sec), GFlopsS: 0.008202, GBytesS: 0.098428
+Test PASSED 
+running vecadd_unified 1000192 2
+Total vector size: 1000192
+Time: 0.004164 (sec), GFlopsS: 0.240201, GBytesS: 2.882411
+Test PASSED 
+running vecadd_unified 1000192 3
+Total vector size: 1000192
+Time: 0.000131 (sec), GFlopsS: 7.627471, GBytesS: 91.529658
+Test PASSED 
+running vecadd_unified 5000192 1
+Total vector size: 5000192
+Time: 0.601700 (sec), GFlopsS: 0.008310, GBytesS: 0.099721
+Test PASSED 
+running vecadd_unified 5000192 2
+Total vector size: 5000192
+Time: 0.020638 (sec), GFlopsS: 0.242281, GBytesS: 2.907372
+Test PASSED 
+running vecadd_unified 5000192 3
+Total vector size: 5000192
+Time: 0.000552 (sec), GFlopsS: 9.059320, GBytesS: 108.711837
+Test PASSED 
+running vecadd_unified 10000128 1
+Total vector size: 10000128
+Time: 1.203328 (sec), GFlopsS: 0.008310, GBytesS: 0.099725
+Test PASSED 
+running vecadd_unified 10000128 2
+Total vector size: 10000128
+Time: 0.041283 (sec), GFlopsS: 0.242233, GBytesS: 2.906794
+Test PASSED 
+running vecadd_unified 10000128 3
+Total vector size: 10000128
+Time: 0.001059 (sec), GFlopsS: 9.442498, GBytesS: 113.309978
+Test PASSED 
+running vecadd_unified 50000128 1
+Total vector size: 50000128
+Time: 6.016315 (sec), GFlopsS: 0.008311, GBytesS: 0.099729
+Test PASSED 
+running vecadd_unified 50000128 2
+Total vector size: 50000128
+Time: 0.080608 (sec), GFlopsS: 0.620288, GBytesS: 7.443459
+Test PASSED 
+running vecadd_unified 50000128 3
+Total vector size: 50000128
+Time: 0.001133 (sec), GFlopsS: 44.132100, GBytesS: 529.585194
+Test PASSED 
+running vecadd_unified 100000000 1
+Total vector size: 100000000
+Time: 12.032507 (sec), GFlopsS: 0.008311, GBytesS: 0.099730
+Test PASSED 
+running vecadd_unified 100000000 2
+Total vector size: 100000000
+Time: 0.159968 (sec), GFlopsS: 0.625124, GBytesS: 7.501494
+Test PASSED 
+running vecadd_unified 100000000 3
+Total vector size: 100000000
+Time: 0.002234 (sec), GFlopsS: 44.763116, GBytesS: 537.157396
+Test PASSED 
