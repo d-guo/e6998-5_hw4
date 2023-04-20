@@ -39,6 +39,7 @@
 #define FH 3
 #define FW 3
 #define P 1
+#define OUT_FOOTPRINT 16
 
 typedef struct {
   int channels;

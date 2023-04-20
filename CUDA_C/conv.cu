@@ -192,8 +192,6 @@ int main(int argc, char** argv) {
   Matrix input_matrix = createIMatrix();
   Matrix* filters = createFilterMatrices();
   Matrix result = MakeHostMatrix(K, H, W);
-
-  printf("val: %lf\n", input_matrix.elements[1 * input_matrix.stride_channel + 2 * input_matrix.stride_height + 3]);
  
   // debugging
 //   if(verbose){
