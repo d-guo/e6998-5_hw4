@@ -6,7 +6,7 @@ OPTIONS   :=  -O3
 #--maxrregcount=100 --ptxas-options -v 
 
 TAR_FILE_NAME  := YourNameCUDA1.tar
-EXECS :=  conv
+EXECS :=  conv conv_tiled conv_cudnn
 all:$(EXECS)
 
 #######################################################################
@@ -33,3 +33,6 @@ convKernel01.o : convKernel01.cu
 
 conv_tiled : conv_tiled.cu convKernel.h convKernel01.o timer.o
 	${NVCC} $< convKernel01.o -o $@ $(LIB) timer.o $(OPTIONS)
+
+conv_cudnn : conv_cudnn.cu timer.o
+	${NVCC} $< -o $@ $(LIB) timer.o $(OPTIONS) -lcudnn

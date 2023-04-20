@@ -124,7 +124,7 @@ void checkResult(Matrix M) {
         }
     }
   }
-
+  printf("checksum: %lf\n", checksum_M);
   if(fabs(checksum - checksum_M)> epsilon * checksum) {
     printf("\n\nTEST FAILED\n");
     printf("computed checksum: %lf\n", checksum_M);
